@@ -33,6 +33,7 @@ const NavLogo = styled(LinkR)`
   font-size: 18px;
   text-decoration: none;
   color: inherit;
+   color: ${({ theme }) => theme.primary};
 `;
 
 const NavItems = styled.ul`
@@ -132,7 +133,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        <NavLogo to="/">Rahul's Portfolio</NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -177,9 +178,9 @@ const Navbar = () => {
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
+          {/* <GithubButton href={Bio.github} target="_Blank">
             Github Profile
-          </GithubButton>
+          </GithubButton> */}
         </ButtonContainer>
       </NavbarContainer>
     </Nav>

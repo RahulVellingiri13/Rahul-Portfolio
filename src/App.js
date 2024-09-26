@@ -44,7 +44,7 @@ function App() {
           <div>
             <Hero />
             <Wrapper>
-              <Skills />
+              <Skills /> 
               <Experience />
             </Wrapper>
             <Projects />

@@ -59,8 +59,7 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+        As a recent graduate, I am seeking opportunities that allow me to enhance my skills and expand my expertise in emerging technologies
         </Desc>
 
         <VerticalTimeline>
