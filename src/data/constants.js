@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/rishavchanda",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    " https://drive.google.com/file/d/1-5d88lreImB2CVJt8q_ViNXyfA9617kT/view?usp=share_link",
   linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -245,8 +245,6 @@ export const skills = [
         image:
           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
       },
-      
-     
     ],
   },
   {
@@ -255,15 +253,13 @@ export const skills = [
       {
         name: "Three Js",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5QUaDDMqNGGO4wAAAB1pVFh0Q29tbWVudAAAAAAAvK6ymQAAAFdJREFUWEftl89RAkEQhb9ZZEYKxoFKWKkFlrY2NiAW1hYXYAQNioVVFXQQ6IpAU2uP0pWdbF39/fcB/Mzg3s6QlMzQkCWm9NBhA+EWkDW5WwDffSEHHjAqkkrIK66hyhIUhxvBY7waYqCKTCwOWq7EAAAAAElFTkSuQmCC",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/_D_h6aWq_400x400.png?alt=media&token=cda146ae-c831-4109-b9ff-b2b6a8ea6094",
       },
       {
         name: "Next Js",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
-
-      
     ],
   },
   {
@@ -295,6 +291,11 @@ export const skills = [
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
       // {
+      //   name: "Firebase",
+      //   image:
+      //    "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/images-3.png?alt=media&token=dccd20c2-5ebd-4533-920d-11e2fee2e316",
+      // },
+      // {
       //   name: "Adobe XD",
       //   image:
       //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
@@ -311,7 +312,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/images.png?alt=media&token=e5a146ed-4a0a-47e7-8689-bf750f46df1d",
     role: "MERN Full-Stack Developer INTERN",
     company: "GT Software",
     date: "July 2024 - Present",
@@ -416,30 +417,31 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/cropped-cropped-IMG-20220204-WA0011-removebg-preview.png?alt=media&token=df53ea05-b2ad-424b-b82d-fe2e078400bd",
     school: "Premier Vidhya Vikash Matriculation Higher Secondary School",
     date: "Oct 2021 - May 2017",
     grade: "91%",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I completed my secondary education at Premier Vidya Vikash Matriculation Higher Secondary School, where I built a strong academic foundation and developed key skills in time management, critical thinking, and collaborative learning. My time there played a crucial role in shaping my interest in technical subjects and provided me with the discipline and work ethic that have continued to support my academic and professional growth.",
     degree: "SSLC",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/smalllogo.png?alt=media&token=80d30bba-1fbd-4e05-8085-dd4e17aa239d",
     school: "PSG Polytechnic College",
     date: "June 2017 - May 2020",
     grade: "71%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    desc: "I completed my Diploma in Electronics and Electronics Engineering at PSG Polytechnic College, where I first cultivated my knowledge in analytical problem-solving and established a solid foundation in core technical concepts. This academic experience allowed me to develop a hands-on approach to engineering challenges, enhance my understanding of electronic systems, and refine my skills in troubleshooting and optimizing circuit designs. It also marked the beginning of my journey into the broader field of engineering and technology, equipping me with the practical skills required to excel in complex technical environments.",
     degree: "Diploma in Electronics and Communication Engineering",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-79d5c.appspot.com/o/images-2.png?alt=media&token=34bac4c7-7e62-4b80-b48e-ffdedbf2854b",
     school: "Sri Krishna College of Engineering and Technology",
     date: "June 2021 - May 2024",
     grade: "80%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "Bachelor of Engineering in Electronics and Communication Engineering",
+    desc: "I completed my Under Graduate degree in Electronics and Communication Engineering at Shri Krishna College of Engineering and Technology, where I gained a strong foundation in both theoretical concepts and practical applications of electronics, communication systems, and embedded technologies. During my studies, I also developed technical problem-solving skills and hands-on experience in project development, preparing me to contribute effectively in multidisciplinary teams within the tech industry.",
+    degree:
+      "Bachelor of Engineering in Electronics and Communication Engineering",
   },
 ];
 
@@ -460,7 +462,7 @@ export const projects = [
   //     "Redux",
   //     "React Flow",
   //   ],
-  //   category: "web app",
+  //   category: "android app",
   //   github: "https://github.com/rishavchanda/DecisionHub",
   //   webapp: "https://decisionhub.netlify.app/",
   // },
@@ -589,32 +591,32 @@ export const projects = [
   //   github: "https://github.com/rishavchanda/Job-finder-App",
   //   webapp: "https://github.com/rishavchanda/Job-finder-App",
   // },
-  // {
-  //   id: 4,
-  //   title: "Whatsapp Clone",
-  //   date: "Jul 2021",
-  //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
+  {
+    id: 4,
+    title: "Real Time Web-Chat Application",
+    date: "Jul 2021",
+    description:
+      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+    category: "own projects",
+    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+    webapp: "https://whatsapp-clone-rishav.web.app",
+  },
+  {
+    id: 5,
+    title: "To-do list Web Application",
+    date: "Jun 2021",
+    description:
+      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+    image:
+      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    category: "own projects",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
   // {
   //   id: 6,
   //   title: "Breaking Bad",
@@ -655,4 +657,3 @@ export const projects = [
   //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   // },
 ];
-

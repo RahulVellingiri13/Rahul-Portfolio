@@ -91,7 +91,7 @@ const CardContainer = styled.div`
 `;
 
 const Projects = () => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle, setToggle] = useState("all projects");
   return (
     <Container id="Projects">
       <Wrapper>
@@ -101,42 +101,41 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+        I have acquired practical experience in Web Development by contributing to live projects and further strengthened my technical expertise through the independent development of personal projects.
         </Desc>
 
         <ToggleButtonGroup>
           <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
+            active={toggle === "all projects"}
+            onClick={() => setToggle("all projects")}
           >
-            ALL
+            All Projects
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "live project"}
+            onClick={() => setToggle("live project")}
           >
-            WEB APP"S
+           Live Project
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "own projects"}
+            onClick={() => setToggle("own projects")}
           >
-            ANDROID APP'S
+            Own Projects
           </ToggleButton>
           <Divider />
-          <ToggleButton
+          {/* <ToggleButton
             active={toggle === "machine learning"}
             onClick={() => setToggle("machine learning")}
           >
             MACHINE LEARNING
-          </ToggleButton>
+          </ToggleButton> */}
         </ToggleButtonGroup>
 
         <CardContainer>
-          {toggle === "all" &&
+          {toggle === "all projects" &&
             projects.map((project) => <ProjectCard project={project} />)}
           {projects
             .filter((item) => item.category === toggle)
