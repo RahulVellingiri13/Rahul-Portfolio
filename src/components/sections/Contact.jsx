@@ -106,22 +106,26 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   const form = useRef();
-  const handelSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_adlo7o3",
+        "template_h7m67fk",
         form.current,
-        "SybVGsYS52j2TfLbi"
+       "ch850lc3obw0X2Is5"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.result();
+          form.current.reset();
+          console.log(result.text)
+          console.log("message sent")
         },
         (error) => {
           alert(error);
+          console.error("Error sending email:", error); // Log error details
+          alert("Failed to send message. Please try again later."); // More user-friendly error message
         }
       );
   };
@@ -136,13 +140,13 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm onSubmit={handleSubmit} ref={form}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" name="message" rows={4} required/>
+          <ContactButton type="submit" value="send" />
         </ContactForm>
       </Wrapper>
     </Container>

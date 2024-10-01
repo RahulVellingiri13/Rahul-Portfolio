@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-  width: 330px;
-  height: 490px;
+  width: 400px;
+  height: 530px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -70,10 +70,11 @@ const Description = styled.div`
   margin-top: 8px;
   display: -webkit-box;
   max-width: 100%;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 `;
+
 const Members = styled.div`
   display: flex;
   align-items: center;
@@ -95,7 +96,10 @@ const Button = styled.a`
   text-align: center;
 `;
 
+
 const ProjectCard = ({ project }) => {
+
+  const projectHref = project.projectLink || project.github; 
   return (
     <Card>
       <Image src={project.image} />
@@ -110,9 +114,24 @@ const ProjectCard = ({ project }) => {
           <Avatar src={member.img} />
         ))}
       </Members>
-      <Button href={project.github} target="_blank">
+      {/* <Button href={project.github} target="_blank">
         View Code
-      </Button>
+      </Button> */}
+
+
+            {/* Display separate link for each card based on the 'projectLink' property */}
+            {/* {project.projectLink && (
+        <Button href={project.projectLink} target="_blank">
+          {project.projectLink || "View Code"}
+        </Button>
+      )} */}
+    {/* Display the button with a fallback to 'github' if no 'projectLink' */}
+    {projectHref && (
+        <Button href={projectHref} target="_blank">
+          {project.linkLabel || "View Code"}
+        </Button>
+      )}
+
     </Card>
   );
 };
