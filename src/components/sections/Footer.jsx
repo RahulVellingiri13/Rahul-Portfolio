@@ -92,7 +92,7 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
+        {/* <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookRounded />
           </SocialMediaIcon>
@@ -105,7 +105,7 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.insta} target="display">
             <Instagram />
           </SocialMediaIcon>
-        </SocialMediaIcons>
+        </SocialMediaIcons> */}
         <Copyright>&copy; 2024 Rahul. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
